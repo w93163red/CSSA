@@ -4326,6 +4326,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav {
   margin: 7.5px -15px;
 }
+
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -4592,9 +4593,17 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+	background-color: black;
+	border-color: #080808;
+	opacity: 0.4;
 }
+.navbar-inverse:hover{
+  	background-color: black;
+  	border-color: #080808;
+ 	opacity: 1;
+}
+
+
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
 }
@@ -6330,29 +6339,6 @@ button.close {
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
   opacity: .5;
-}
-.carousel-left{
-  position: absolute;
-  top: 53%;
-  bottom: 40%;
-  left: 0;
-  width: 40%;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-}
-
-.carousel-right{
-  position: absolute;
-  top: 53%;
-  bottom: 40%;
-  right: 0;
-  width: 40%;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 
 .carousel-control.left {
